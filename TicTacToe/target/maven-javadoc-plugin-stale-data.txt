@@ -1,0 +1,51 @@
+@options
+@packages
+@argfile
+--class-path
+'C:/Users/Jamie/.m2/repository/org/openjfx/javafx-controls/13/javafx-controls-13.jar;C:/Users/Jamie/.m2/repository/org/openjfx/javafx-graphics/13/javafx-graphics-13.jar;C:/Users/Jamie/.m2/repository/org/openjfx/javafx-base/13/javafx-base-13.jar;C:/Users/Jamie/.m2/repository/org/openjfx/javafx-fxml/13/javafx-fxml-13.jar'
+--module-path
+'C:/Users/Jamie/.m2/repository/org/openjfx/javafx-base/13/javafx-base-13-win.jar;C:/Users/Jamie/.m2/repository/org/openjfx/javafx-fxml/13/javafx-fxml-13-win.jar;C:/Users/Jamie/.m2/repository/org/openjfx/javafx-controls/13/javafx-controls-13-win.jar;C:/Users/Jamie/.m2/repository/org/openjfx/javafx-graphics/13/javafx-graphics-13-win.jar;C:/Users/Jamie/Downloads/TicTacToe103/TicTacToe/target/classes'
+--patch-module
+com.mycompany.tictactoe='C:/Users/Jamie/Downloads/TicTacToe103/TicTacToe/src/main/java'
+-encoding
+'UTF-8'
+-protected
+-source
+'11'
+--module-source-path
+'C:/Users/Jamie/Downloads/TicTacToe103/TicTacToe/target/site/apidocs/src'
+-author
+-bottom
+'Copyright &#169; 2022. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Jamie/Downloads/TicTacToe103/TicTacToe/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'TicTacToe 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' 'C:/Users/Jamie/Downloads/TicTacToe103/TicTacToe/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'TicTacToe 1.0-SNAPSHOT API'
+com.mycompany.tictactoe
+'C:/Users/Jamie/Downloads/TicTacToe103/TicTacToe/src/main/java/module-info.java'
+C:\Users\Jamie\Downloads\TicTacToe103\TicTacToe\target\site\apidocs\allclasses-index.html = 1649711243076
+C:\Users\Jamie\Downloads\TicTacToe103\TicTacToe\target\site\apidocs\allpackages-index.html = 1649711243079
+C:\Users\Jamie\Downloads\TicTacToe103\TicTacToe\target\site\apidocs\element-list = 1649711242989
+C:\Users\Jamie\Downloads\TicTacToe103\TicTacToe\target\site\apidocs\help-doc.html = 1649711243099
+C:\Users\Jamie\Downloads\TicTacToe103\TicTacToe\target\site\apidocs\index-all.html = 1649711243099
+C:\Users\Jamie\Downloads\TicTacToe103\TicTacToe\target\site\apidocs\index.html = 1649711243099
+C:\Users\Jamie\Downloads\TicTacToe103\TicTacToe\target\site\apidocs\jquery-ui.overrides.css = 1649711243162
+C:\Users\Jamie\Downloads\TicTacToe103\TicTacToe\target\site\apidocs\member-search-index.js = 1649711243083
+C:\Users\Jamie\Downloads\TicTacToe103\TicTacToe\target\site\apidocs\module-search-index.js = 1649711243081
+C:\Users\Jamie\Downloads\TicTacToe103\TicTacToe\target\site\apidocs\overview-tree.html = 1649711243062
+C:\Users\Jamie\Downloads\TicTacToe103\TicTacToe\target\site\apidocs\package-search-index.js = 1649711243083
+C:\Users\Jamie\Downloads\TicTacToe103\TicTacToe\target\site\apidocs\script.js = 1649711243115
+C:\Users\Jamie\Downloads\TicTacToe103\TicTacToe\target\site\apidocs\search.js = 1649711243115
+C:\Users\Jamie\Downloads\TicTacToe103\TicTacToe\target\site\apidocs\stylesheet.css = 1649711243115
+C:\Users\Jamie\Downloads\TicTacToe103\TicTacToe\target\site\apidocs\tag-search-index.js = 1649711243083
+C:\Users\Jamie\Downloads\TicTacToe103\TicTacToe\target\site\apidocs\type-search-index.js = 1649711243083

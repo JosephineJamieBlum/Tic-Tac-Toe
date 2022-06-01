@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+
+<Pane maxHeight="417.0" maxWidth="403.0" minHeight="400.0" minWidth="400.0" prefHeight="402.0" prefWidth="403.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.tictactoe.PrimaryController">
+   <children>
+      <MenuBar layoutX="14.0" maxWidth="1.7976931348623157E308">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#newGame" text="New Game" />
+                  <MenuItem mnemonicParsing="false" onAction="#exit" text="Exit" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Line endY="400.0" layoutX="266.0" />
+      <Line endY="400.0" layoutX="133.0" />
+      <Line endX="400.0" layoutY="133.0" />
+      <Line endX="400.0" endY="133.0" layoutY="133.0" startY="133.0" />
+      <Rectangle fx:id="rect0" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="98.0" layoutX="20.0" layoutY="26.0" onMouseClicked="#setTile" stroke="BLACK" strokeType="INSIDE" width="102.0" />
+      <Rectangle fx:id="rect1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="98.0" layoutX="146.0" layoutY="26.0" onMouseClicked="#setTile" stroke="BLACK" strokeType="INSIDE" width="102.0" />
+      <Rectangle fx:id="rect2" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="98.0" layoutX="284.0" layoutY="26.0" onMouseClicked="#setTile" stroke="BLACK" strokeType="INSIDE" width="102.0" />
+      <Rectangle fx:id="rect3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="102.0" layoutX="14.0" layoutY="147.0" onMouseClicked="#setTile" stroke="BLACK" strokeType="INSIDE" width="102.0" />
+      <Rectangle fx:id="rect4" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="98.0" layoutX="148.0" layoutY="149.0" onMouseClicked="#setTile" stroke="BLACK" strokeType="INSIDE" width="98.0" />
+      <Rectangle fx:id="rect6" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="98.0" layoutX="14.0" layoutY="279.0" onMouseClicked="#setTile" stroke="BLACK" strokeType="INSIDE" width="102.0" />
+      <Rectangle fx:id="rect8" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="98.0" layoutX="284.0" layoutY="279.0" onMouseClicked="#setTile" stroke="BLACK" strokeType="INSIDE" width="102.0" />
+      <Rectangle fx:id="rect5" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="98.0" layoutX="279.0" layoutY="152.0" onMouseClicked="#setTile" stroke="BLACK" strokeType="INSIDE" width="102.0" />
+      <Rectangle fx:id="rect7" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="98.0" layoutX="149.0" layoutY="279.0" onMouseClicked="#setTile" stroke="BLACK" strokeType="INSIDE" width="102.0" />
+      <Circle fx:id="circ7" fill="DODGERBLUE" layoutX="200.0" layoutY="328.0" mouseTransparent="true" radius="54.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="circ6" fill="DODGERBLUE" layoutX="65.0" layoutY="328.0" mouseTransparent="true" radius="54.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="circ5" fill="DODGERBLUE" layoutX="330.0" layoutY="200.0" mouseTransparent="true" radius="51.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="circ4" fill="DODGERBLUE" layoutX="197.0" layoutY="196.0" mouseTransparent="true" radius="49.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="circ3" fill="DODGERBLUE" layoutX="65.0" layoutY="198.0" mouseTransparent="true" radius="54.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="circ2" fill="DODGERBLUE" layoutX="335.0" layoutY="73.0" mouseTransparent="true" radius="51.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="circ1" fill="DODGERBLUE" layoutX="197.0" layoutY="73.0" mouseTransparent="true" radius="49.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="circ0" fill="DODGERBLUE" layoutX="71.0" layoutY="75.0" mouseTransparent="true" radius="51.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="circ8" fill="DODGERBLUE" layoutX="335.0" layoutY="328.0" mouseTransparent="true" radius="54.0" stroke="BLACK" strokeType="INSIDE" />
+   </children>
+</Pane>
